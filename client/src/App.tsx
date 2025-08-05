@@ -85,9 +85,9 @@ function App() {
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-800 mb-2">
-            ✅ Todo List
+            ✅ 待办事项
           </h1>
-          <p className="text-gray-600">Stay organized and get things done!</p>
+          <p className="text-gray-600">保持专注，事半功倍！</p>
         </div>
 
         {/* Add new task form */}
@@ -105,7 +105,7 @@ function App() {
                 onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                   setNewTaskTitle(e.target.value)
                 }
-                placeholder="What needs to be done? 🚀"
+                placeholder="有什么要做的？🚀"
                 className="flex-1 border-gray-200 focus:border-blue-400 focus:ring-blue-400"
                 maxLength={500}
                 disabled={isLoading}
